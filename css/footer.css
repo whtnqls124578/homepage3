@@ -1,0 +1,20 @@
+#footer>.logo>img{
+    margin-left:10px;
+    margin-top:20px;
+}
+
+.bottom>ul>li{
+    float:left;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+.bottom>ul>li:first-child{
+    margin-left:10px;
+}
+
+.copyright{
+    padding-left:10px;
+    padding-top:10px;
+    box-sizing: border-box;
+}

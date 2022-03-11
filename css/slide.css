@@ -1,0 +1,10 @@
+#slide{
+    overflow:hidden;
+    position: relative;
+}
+
+#slide_contents{
+    position:absolute;
+    top:0;
+    font-size: 0;
+}

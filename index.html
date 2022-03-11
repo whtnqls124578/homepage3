@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>강원천문대</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/slide.css" rel="stylesheet">
+    <link href="css/contents.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/popup.css" rel="stylesheet">
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/jquery.cookie.js"></script>
+    <script src="./js/app.js"></script>
+</head>
+
+<body>
+
+    <div id="popup">
+        <div id="img-area">
+            <img src="./images/popup_img.png">
+        </div>
+        <div id="check-area">
+            <div>
+                <label>1일간 열지 않기</label>
+                <input type="checkbox" id="check-btn-1">
+            </div>
+            <div>
+                <label>7일간 열지 않기</label>
+                <input type="checkbox" id="check-btn-7">
+            </div>
+            <div id="close-btn-area">
+                <span>
+                    X
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="wrap">
+        <header id="header">
+            <div class="logo">
+                <img src="./images/logo1.png">
+            </div>
+            <nav class="nav">
+                <ul class="gnb">
+                    <li><a href="#">강원천문대</a>
+                        <ul class="lnb">
+                            <li><a href="#">천문대소개</a></li>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">이용안내</a>
+                        <ul class="lnb">
+                            <li><a href="#">프로그램</a></li>
+                            <li><a href="#">관람시간표</a></li>
+                            <li><a href="#">이달의 별자리</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">천문대예약</a>
+                        <ul class="lnb">
+                            <li><a href="#">예약하기</a></li>
+                            <li><a href="#">예약확인</a></li>
+                            <li><a href="#">예약취소</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">커뮤니티</a>
+                        <ul class="lnb">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">방문후기</a></li>
+                            <li><a href="#">자유게시판</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slide">
+            <div id="slide_contents">
+                <img src="./images/slide1.jpg" alt="cont1">
+                <img src="./images/slide2.jpg" alt="cont2">
+                <img src="./images/slide3.jpg" alt="cont3">
+            </div>
+        </div>
+        <div id="contents">
+            <div id="cont1">
+                <article class="tab">
+                    <div class="tab_btn">
+                        <a href="#" class="active">
+                            공지사항
+                        </a>
+                        <a href="#">
+                            갤러리
+                        </a>
+                    </div>
+                    <div class="tab_contents">
+                        <div>
+                            <ul class="notice_list">
+                                <li class="pop"><a href="#"><span>SNS비회원주문하기 종료</span> <span>[2020-11-07]</span></a>
+                                </li>
+                                <li><a href="#"><span>구매이용약관 개정 공지</span> <span>[2020-11-06]</span></a></li>
+                                <li><a href="#"><span>V센터 종료 안내</span> <span>[2018-22-07]</span></a></li>
+                                <li><a href="#"><span>개인정보처리방침 개정 안내</span> <span>[2020-11-05]</span></a></li>
+
+                            </ul>
+                        </div>
+                        <div class="display_off">
+                            <ul class="gallery_list">
+                                <li><a href="#"><img src="images/gallery1.jpg" alt="갤러리"></a></li>
+                                <li><a href="#"><img src="images/gallery2.jpg" alt="갤러리"></a></li>
+                                <li><a href="#"><img src="images/gallery3.jpg" alt="갤러리"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div id="cont2">
+                <img src="./images/banner_1.png">
+            </div>
+            <div id="cont3">
+                <img src="./images/banner_2.png">
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="logo">
+                <img src="./images/logoBottom.png">
+            </div>
+
+            <div id="right">
+                <div class="bottom">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일수집거부</a></li>
+                        <li><a href="#">저작권 정책</a></li>
+                        <li><a href="#">뷰어다운로드</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2018 kangwon COUNTY, ALL Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
